@@ -1,0 +1,55 @@
+/* Global style */
+
+/* .btn-tertiary {
+  color: #555;
+  padding: 0;
+  line-height: 40px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  border: 2px solid #555;
+}
+.btn-tertiary:hover, .btn-tertiary:focus {
+  color: #888888;
+  border-color: #888888;
+}
+ */
+/* input file style */
+.input-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-file + .js-labelFile {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+  cursor: pointer;
+
+  color: #333 !important;
+  /* border: 1px solid #e8e8e8 !important; */
+  border: 1px dashed #e8e8e8 !important;
+  height: auto !important;
+  line-height: 28px;
+  width: 100%;
+  background: #fff;
+
+}
+.input-file + .js-labelFile .icon:before {
+  content: "\f093";
+}
+.input-file + .js-labelFile.has-file .icon:before {
+  content: "\f00c";
+  color: #5AAC7B;
+}
+.input-file + .js-labelFile.btn:hover{
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
